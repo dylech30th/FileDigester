@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "FileDigester": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\26532\\Desktop\\Pixeval C:\\Users\\26532\\Desktop\\result.json SHA256"
+    }
+  }
+}
