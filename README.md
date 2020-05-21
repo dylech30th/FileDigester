@@ -5,7 +5,7 @@ a very simple console application to walk a directory tree and get the checksum 
 `FileDigester.exe <input dir> <output json> <checksum algorithm := MD5 | SHA256 | SHA1>`</br>
 
 **Output format:**</br>
-there is a simple output json file, you can easily deserialize it to a Dictionary<string, string>
+there is a simple output json file, you can easily deserialize it to a `Dictionary<string, string>`
 ```json
 {
   "AdaptiveCards.dll": "5afef7d2a1aa31415774780454a623fd007c45d5000d3d6835df9b1faa37ff05",
