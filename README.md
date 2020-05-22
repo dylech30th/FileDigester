@@ -1,8 +1,8 @@
 # FileDigester
-a very simple console application to walk a directory tree and get the checksum of each file, might be helpful to incremental updates
+a very simple console application to walk through a directory tree starts with a root directory and get the checksum of each file, might be helpful to incremental updates
 
 **Command line specification:**</br>
-`FileDigester.exe <input dir> <output json> <checksum algorithm := MD5 | SHA256 | SHA1>`</br>
+`FileDigester.exe <input dir> <output json> <checksum algorithm ::= MD5 | SHA256 | SHA1>`</br>
 
 **Output format:**</br>
 there is a simple output json file, you can easily deserialize it to a `Dictionary<string, string>`
